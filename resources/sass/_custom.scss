@@ -1,0 +1,158 @@
+/* keepy custom css */
+
+html, body {
+    min-height: 100%;
+    height: 100%;
+}
+
+.fill { 
+    min-height: 100%;
+    height: 100%;
+    min-width: 100%;
+    width: 100%;
+}
+
+.opaque-bg {
+   background-color: rgba(255, 255, 255, 0.7);
+}
+
+.login-bg {
+    background-image: url("/images/rgufront.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.textrow-style {
+    box-shadow: 0px 0px 4px rgba(0,0,0, 0.8);
+}
+
+.navbar-custom {
+    background-color: #712177;
+}
+
+.rgu-bg-color {
+    background-color: #712177;
+    color: white;
+}
+
+.keyrow {
+    background-color: #712177;
+    color: white;
+}
+
+.keyrow:hover {     
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.mt-10 {
+    margin-top: 10%;
+}
+
+.selected-tab {
+    border-bottom: 4px solid #5333ed !important;
+}
+
+.tab-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+
+.item-text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+
+.item-room-headers {
+    border-bottom: 1px solid rgba(0,0,0, 0.8);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+}
+
+.items-for-room {
+    display: none;
+}
+
+.btn-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.row-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+}
+
+
+.nav-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.w-97 {
+    width: 97%;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.scroll-y {
+  overflow-y: scroll;
+}
+
+.scroll-hidden {
+    overflow: hidden;
+}
+
+.margin-8 {
+    margin-top: 8%;
+}
+
+.history-borrowed {
+    background-color: #d64541;
+}
+
+.history-returned {
+    background-color: #7befb2;
+}
+
+.dashboard {
+    background-color: #FFF;
+    width: 100vw;
+    height: 100vh;
+}
+
+.dashboard-item {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    list-style: none;
+    text-decoration: none;
+    background-color: #333;
+    color: #FFF;
+    border: 5px solid #333;
+    border-radius: 5px; 
+
+    &:hover {
+        color: #FFF;
+        text-decoration: none;
+        cursor: pointer;
+        opacity: 0.8;
+    }
+}
+
+.register-container,
+.edit-rights-container {
+    display: none;
+}
+
+.statusMessage {
+    position: fixed;
+    width: 100%;
+    margin-top: 5%;
+}
