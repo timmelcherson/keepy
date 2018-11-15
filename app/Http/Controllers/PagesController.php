@@ -56,16 +56,6 @@ class PagesController extends Controller
     }
 
 
-    public function about()
-    {
-
-        $title = 'About Us';
-        
-        return view('pages.about')->with('title', $title);
-    
-    }
-
-
     public function addKey(){
 
         if ($user_id = auth()->user()->rights_add_key == 0){

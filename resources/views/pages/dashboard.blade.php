@@ -87,7 +87,18 @@
                         </div>
                     </div>
 
-                    <div class="form-group row mb-0">
+                    <div class="form-group row d-flex flex-row">
+                        <label for="role" class="col-md-4 col-form-label text-md-right">User role</label>
+                        
+                        <div class="col-8 d-flex align-items-center">
+                            <select name="role" class="custom-select">
+                                <option value="admin">admin</option>
+                                <option value="superuser">superuser</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group row d-flex flex-row">
                         <div class="col-md-6 offset-md-4">
                             <button type="submit" class="btn btn-primary">
                                 {{ __('Register') }}
@@ -98,7 +109,7 @@
             </div>
         </div>
 
-        <div class="edit-rights-container m-3 w-75 h-75 justify-content-center" id="register-user">
+        <div class="edit-rights-container m-3 w-75 h-75 justify-content-center" id="edit-user-rights">
 
             <div class="jumbotron bg-light text-center  w-75 p-5 border border-dark">
 

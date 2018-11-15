@@ -19,7 +19,6 @@ Auth::routes();
 Route::group(['middleware' => ['auth']], function() {
     
     Route::get('/home', 'PagesController@home');
-    Route::get('/about', 'PagesController@about');
     Route::get('/addkey', 'PagesController@addKey');
     Route::get('/addfob', 'PagesController@addFob');
     Route::get('/dashboard', 'PagesController@dashboard');

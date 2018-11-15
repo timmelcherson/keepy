@@ -15,9 +15,6 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/home">Home <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/about">About</a>
-                </li>
                 @if (Auth::user()->rights_add_key === 1)
                     <li class="nav-item">
                         <a class="nav-link" href="/addkey">Add new key</a>

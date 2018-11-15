@@ -45,11 +45,12 @@ class DashboardController extends Controller
                 'email' => 'required',
                 'password' => 'required',
             ]);
-
+                        
             $User = new User([
                 'name' => request()->get('name'),
                 'email' => request()->get('email'),
                 'password' => Hash::make(request()->get('password')),
+                'role' => request()->get('role'),
             ]);
 
             $User->save();
@@ -77,10 +78,12 @@ class DashboardController extends Controller
         $user->update([
             'rights_add_key' => request()->get('rights_add_key'), 
             'rights_delete_key' => request()->get('rights_delete_key'),
+            'rights_edit_key' => request()->get('rights_edit_key'),
             'rights_book_key' => request()->get('rights_book_key'),
             'rights_return_key' => request()->get('rights_return_key'),
             'rights_add_fob' => request()->get('rights_add_fob'),
             'rights_delete_fob' => request()->get('rights_delete_fob'),
+            'rights_edit_fob' => request()->get('rights_edit_fob'),
             'rights_book_fob' => request()->get('rights_book_fob'),
             'rights_return_fob' => request()->get('rights_return_fob'),
         ]);

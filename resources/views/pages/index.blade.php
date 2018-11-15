@@ -63,9 +63,9 @@
 
 
                         {{-- REMOVE THIS BUTTON --}}
-                        <div class="form-group row d-flex justify-content-center p-2">
+                        {{-- <div class="form-group row d-flex justify-content-center p-2">
                             <a href="/register" class="btn btn-success btn-lg" role="button">Register</a>
-                        </div>
+                        </div> --}}
 
                     </form>
             
