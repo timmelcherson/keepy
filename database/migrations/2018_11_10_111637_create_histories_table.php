@@ -7,7 +7,7 @@ use Illuminate\Database\Migrations\Migration;
 class CreateHistoriesTable extends Migration
 {
     /**
-     * Run the migrations.
+     * Run the migrations
      *
      * @return void
      */
@@ -24,7 +24,7 @@ class CreateHistoriesTable extends Migration
     }
 
     /**
-     * Reverse the migrations.
+     * Reverse the migrations
      *
      * @return void
      */

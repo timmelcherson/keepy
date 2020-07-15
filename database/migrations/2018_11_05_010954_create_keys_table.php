@@ -7,7 +7,7 @@ use Illuminate\Database\Migrations\Migration;
 class CreateKeysTable extends Migration
 {
     /**
-     * Run the migrations.
+     * Run the migrations
      *
      * @return void
      */
@@ -29,7 +29,7 @@ class CreateKeysTable extends Migration
     }
 
     /**
-     * Reverse the migrations.
+     * Reverse the migrations
      *
      * @return void
      */

@@ -7,7 +7,7 @@ use Illuminate\Database\Migrations\Migration;
 class AddRoleToUsers extends Migration
 {
     /**
-     * Run the migrations.
+     * Run the migrations
      *
      * @return void
      */
@@ -19,7 +19,7 @@ class AddRoleToUsers extends Migration
     }
 
     /**
-     * Reverse the migrations.
+     * Reverse the migrations
      *
      * @return void
      */
